@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{67885ac0-adca-4b38-9d83-9f1f7bb3db6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{50e60131-a2c6-46b4-b12d-e18ad4170cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{49be688b-3c2a-4f1b-8143-1730ab4a3797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{5c74d9b2-7570-466c-8610-3051578cef3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\For.Logo">
+      <UniqueIdentifier>{4c02a192-6eda-41b6-b9c1-e7a3f4f71e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\For.Stage">
+      <UniqueIdentifier>{266693d9-d739-461f-92aa-466afc7b5a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\For.Loading">
+      <UniqueIdentifier>{69ef99f0-b7de-4376-b030-b535dfdc5878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{26f72097-eb0b-4eef-8f87-1cf01d4ab0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.For.Logo">
+      <UniqueIdentifier>{45c44a2a-fe9d-4f2b-9a46-ffbe9fce95e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.For.Logo\BackGround">
+      <UniqueIdentifier>{b99abf28-eba9-4c90-ae9e-fc64f6fdda17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage">
+      <UniqueIdentifier>{7333da1d-437e-47f1-8c9b-e169df458c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Shield">
+      <UniqueIdentifier>{949ca927-20ac-42f3-854d-ef02727ff224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Camera">
+      <UniqueIdentifier>{a094889f-6ae2-4371-8743-9bc65c5aa37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\SkyBox">
+      <UniqueIdentifier>{8c7c9d78-d9aa-460a-97da-b13d6050a9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Player">
+      <UniqueIdentifier>{c7f99a06-5e6b-405b-89c8-d35ff20f94c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Sword">
+      <UniqueIdentifier>{2d2ac738-5b0e-40e4-ba5f-831915c1acf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Boss">
+      <UniqueIdentifier>{f46c2138-2cd5-4733-b1f2-94e878e99670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Navi">
+      <UniqueIdentifier>{6f66407e-2d7c-48f2-9d74-d86a9b94801d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Map">
+      <UniqueIdentifier>{842af108-b47a-4a60-9a09-9a3690e5c90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Ingkells_Sword">
+      <UniqueIdentifier>{20e6596a-248a-44c5-b540-3c17778c268f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect">
+      <UniqueIdentifier>{de20c39f-aec2-43b1-9ed7-6c01565b7d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Trail">
+      <UniqueIdentifier>{087a8f86-df10-42d5-866c-4e3bcd05130e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Attack_Strong_0">
+      <UniqueIdentifier>{f0ef569e-4b00-4624-aa44-17490a74166f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture">
+      <UniqueIdentifier>{685c12ac-c53b-483e-8936-06127ed2a1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Sword_Sharp_Line_Texture">
+      <UniqueIdentifier>{bf1c47b9-f195-4b8f-8ddc-14d885be79e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Sword_Sharp_Plane_Texture">
+      <UniqueIdentifier>{e5ef3c37-a107-4478-b728-3482f7ee49b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Sword_Radial_Blur">
+      <UniqueIdentifier>{ea1c2faf-05ce-41d9-9e8a-acbb0e42bb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Shape_Up_Shot">
+      <UniqueIdentifier>{91f6f322-f53a-42b1-9d40-d411c617fe66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Phantom_Trail">
+      <UniqueIdentifier>{79923ae7-c77b-4a8b-b59f-5def6752f610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Shield_Zoom">
+      <UniqueIdentifier>{80f355ac-5506-4b92-a98a-443d79645a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Ring2">
+      <UniqueIdentifier>{58e017d4-5229-42f7-8508-d1cab3f1d432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Ring_Outer_Wind06">
+      <UniqueIdentifier>{35fd60fc-f46b-4a8f-9513-7025845c34f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Wind">
+      <UniqueIdentifier>{81791526-2838-4e61-b5db-40883a085058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Blunt">
+      <UniqueIdentifier>{0e58dd94-0fdb-4da9-b846-e1fa7fbc826f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Yellow_Blunt">
+      <UniqueIdentifier>{f1755d9e-14bb-4867-af42-dec13dd6f54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Ring_Disk">
+      <UniqueIdentifier>{3372cdf2-bef3-4745-850b-68c59d2b8590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Texture\Holy_Shield">
+      <UniqueIdentifier>{8be4ddbf-1798-44eb-812c-6ca60bd1b7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Attack_Strong_2">
+      <UniqueIdentifier>{1c66335e-217d-4c72-828d-837559cd2675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Attack_String_3">
+      <UniqueIdentifier>{407240a6-cf06-4b12-8c9b-4c677bc37794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\Counter">
+      <UniqueIdentifier>{ddace3ea-5108-42d1-a5ae-7a770bab5b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\HeayStanderCounter">
+      <UniqueIdentifier>{dec58f54-cbb1-4d6a-9050-bdb345c2741c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.For.Stage\Effect\DashSmash">
+      <UniqueIdentifier>{e62ef381-dd88-4d60-b439-c7304247f2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.ShaderFiles">
+      <UniqueIdentifier>{4aba4284-c884-4e8d-a2c1-c81a24a1a012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Effect_Manager">
+      <UniqueIdentifier>{bab066f2-61e7-49bc-b829-1fa7ce078fb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Logo.cpp">
+      <Filter>01.Scene\For.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Stage.cpp">
+      <Filter>01.Scene\For.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Loading.cpp">
+      <Filter>01.Scene\For.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BackGround_Logo.cpp">
+      <Filter>02.GameObject\00.For.Logo\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shield.cpp">
+      <Filter>02.GameObject\01.For.Stage\Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Stage.cpp">
+      <Filter>02.GameObject\01.For.Stage\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SkyBox.cpp">
+      <Filter>02.GameObject\01.For.Stage\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>02.GameObject\01.For.Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sword.cpp">
+      <Filter>02.GameObject\01.For.Stage\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss.cpp">
+      <Filter>02.GameObject\01.For.Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Navi.cpp">
+      <Filter>02.GameObject\01.For.Stage\Navi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Map.cpp">
+      <Filter>02.GameObject\01.For.Stage\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ingkells_Sword.cpp">
+      <Filter>02.GameObject\01.For.Stage\Ingkells_Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Trail.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Attack_Strong_0.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Attack_Strong_0</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sword_Sharp_Line_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Sword_Sharp_Line_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sword_Sharp_Plane_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Sword_Sharp_Plane_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sword_Radial_Blur_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Sword_Radial_Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shape_Up_Shot_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Shape_Up_Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Phantom_Trail.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Phantom_Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shield_Zoom_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Shield_Zoom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ring2_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Ring2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ring_Outer_Wind06_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Ring_Outer_Wind06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Wind_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Wind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Blunt_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Blunt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Yellow_Blunt_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Yellow_Blunt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ring_Disk_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Ring_Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Holy_Shield_Texture.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Holy_Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Attack_Strong_2.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Attack_Strong_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Attack_Strong_3.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Attack_String_3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Counter.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\Counter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\HeavyStanderCounter.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\HeayStanderCounter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DashSmash.cpp">
+      <Filter>02.GameObject\01.For.Stage\Effect\DashSmash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\Utility\Codes\Effect_Manager.cpp">
+      <Filter>04. Effect_Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Constant.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Function.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Typedef.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Scene_Logo.h">
+      <Filter>01.Scene\For.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Scene_Stage.h">
+      <Filter>01.Scene\For.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Loading.h">
+      <Filter>01.Scene\For.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\BackGround_Logo.h">
+      <Filter>02.GameObject\00.For.Logo\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Shield.h">
+      <Filter>02.GameObject\01.For.Stage\Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Camera_Stage.h">
+      <Filter>02.GameObject\01.For.Stage\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SkyBox.h">
+      <Filter>02.GameObject\01.For.Stage\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player.h">
+      <Filter>02.GameObject\01.For.Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Sword.h">
+      <Filter>02.GameObject\01.For.Stage\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Boss.h">
+      <Filter>02.GameObject\01.For.Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Navi.h">
+      <Filter>02.GameObject\01.For.Stage\Navi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Map.h">
+      <Filter>02.GameObject\01.For.Stage\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Ingkells_Sword.h">
+      <Filter>02.GameObject\01.For.Stage\Ingkells_Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Trail.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Attack_Strong_0.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Attack_Strong_0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Sword_Sharp_Line_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Sword_Sharp_Line_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Sword_Sharp_Plane_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Sword_Sharp_Plane_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Sword_Radial_Blur_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Sword_Radial_Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Shape_Up_Shot_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Shape_Up_Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Phantom_Trail.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Phantom_Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Shield_Zoom_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Shield_Zoom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Ring2_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Ring2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Ring_Outer_Wind06_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Ring_Outer_Wind06</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Wind_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Blunt_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Blunt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Yellow_Blunt_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Yellow_Blunt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Ring_Disk_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Ring_Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Holy_Shield_Texture.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Texture\Holy_Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Attack_Strong_2.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Attack_Strong_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Attack_Strong_3.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Attack_String_3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Counter.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\Counter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\HeavyStanderCounter.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\HeayStanderCounter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DashSmash.h">
+      <Filter>02.GameObject\01.For.Stage\Effect\DashSmash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Shader_Base.hpp">
+      <Filter>03.ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Shader_Default.hpp">
+      <Filter>03.ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Shader_Effect.hpp">
+      <Filter>03.ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Shader_Mesh.hpp">
+      <Filter>03.ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Shader_Trail.hpp">
+      <Filter>03.ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\Utility\Codes\Effect_Manager.h">
+      <Filter>04. Effect_Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Codes\Shader_Default.fx">
+      <Filter>03.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

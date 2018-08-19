@@ -1,0 +1,188 @@
+//큰노란링//////////////////////////////////////////////
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+	"position_offset_1"	"40 0 40"
+
+	"material"		"effects/yellowflare3"
+
+	"emitter"	"simple"
+
+	"gravity"	"0"
+
+	"emit_interval"		"0.01"
+	"emit_duration"		"0.02"
+	
+	"particle_count"	"2"
+	
+	"die_time"		"0.1 0.2"
+
+	"speed"			"1"
+
+	"spread_angle" "1"
+	"spread_radius" "1"
+	"spread_radius_angle" "1"
+
+	"color_ramp"	"1 0.4"
+
+	"color_min" "222 249 255"
+
+    "start_size"  "1 2"
+	"size_delta"
+	{
+		"0"	"2"
+		"0.4"	"40"
+		"1"	"60"
+	}
+	"alpha_delta"	
+	{
+		"0.1"	"255"
+		"0.3"	"150"
+		"1"	"0"
+	}
+	"start_roll" "-360 360"
+	
+	"roll_delta"	
+	{
+		"0"	"50"
+		"1"	"400"
+	}
+
+	"no_screen"	"1"
+}
+
+//노란링//////////////////////////////////////////////
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+	"position_offset_1"	"40 0 40"
+
+	"material"		"effects/yellowflare3"
+
+	"emitter"	"simple"
+
+	"gravity"	"0"
+
+	"emit_interval"		"0.01"
+	"emit_duration"		"0.1"
+	
+	"particle_count"	"2"
+	
+	"die_time"		"0.1"
+
+	"speed"			"1"
+
+	"spread_angle" "1"
+	"spread_radius" "1"
+	"spread_radius_angle" "1"
+
+	"color_ramp"	"1 0.7"
+
+	"color_min" "222 249 255"
+
+	"use_light"		"0"
+
+	"use_local"		"0"
+    "start_size"  "6 3"
+	"size_delta"
+	{
+		"0"	"-1"
+		"0.3" "5"
+		"1"	"15"
+	}
+	"alpha_delta"	
+	{
+		"0.1"	"255"
+		"0.3"	"170"
+		"1"	"0"
+	}
+	"start_roll"
+	{
+		"0"	"-360 360"
+	}	
+	"roll_delta"	
+	{
+		"0"	"50"
+		"1"	"100"
+	}
+
+	"no_screen"	"1"
+}
+
+
+
+//빗선/////////
+"particle"
+{
+	"position_offset_1"	"100 4 42"
+	"angle_offset_1"	"180 0 0"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+
+	"material"		"effects/cold_dust"
+	"direction_1"		"0 -1 0"
+
+	"emitter"	"trail"
+
+	"start_length" "0.4 0.8"
+	"start_width" "7 3"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.15"
+
+	"gravity"	
+	{
+		"0"	"0"
+	}
+
+	"particle_count"	"7"
+
+	"color_min" "222 249 255"
+
+	"die_time"		
+	{
+		"0"	"0.2 0.1"
+	}
+
+	"speed"	
+	{
+		"0"	"80 100"	
+	}
+	"speed_delta"
+	{
+		"0"	"110"	
+		"0.3"	"80"
+	}
+	
+	"spread_angle"	"25"	
+	"spread_radius" "40"
+	"spread_radius_angle" "0"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"10.7"
+	}
+
+	"size_delta"
+	{
+		"0"	"2"
+		"0.3"	"4"
+		"1"	"5"
+	}
+	"alpha_delta"	
+	{
+		"0"	"0"
+		"0.3" "200"
+		"1"	"0"
+	}
+  "start_size"    "1 3"	
+
+}
+

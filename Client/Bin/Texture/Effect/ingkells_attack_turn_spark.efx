@@ -1,0 +1,405 @@
+
+//Æ¢´Â ½íºÒ²É//////////////////////
+"particle"
+{
+	"fixed_position" "1"
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"100 0 0"
+	"angle_offset_1"	"0 0 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.1"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	"5 15"
+	
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"0.5 0.3"
+	}
+
+	"speed"		"150 220"	
+
+	"speed_delta"
+	{
+		"0"	"80"	
+		"0.3"	"50"
+		"0.6"	"20"
+		"1"	"10"
+	}
+
+	"spread_angle"	"175"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.6"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"2 5"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+
+//Æ¢´Â ºÒ²É//////////////////////
+"particle"
+{
+	"fixed_position" "1"
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"100 0 0"
+	"angle_offset_1"	"0 0 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.1"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"10 15"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"0.6"
+	}
+
+	"speed"		"50 150"	
+	
+	"speed_delta"
+	{
+		"0"	"80"	
+		"0.3"	"50"
+		"0.6"	"20"
+		"1"	"10"
+	}
+
+	"spread_angle"	"45"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.6"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"2 5"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+//Æ¢´Â ÀÛÀººÒ²É//////////////////////////
+"particle"
+{
+
+	"fixed_position" "1"
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"100 0 0"
+	"angle_offset_1"	"0 0 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.1"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"2"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"0.6"
+	}
+
+	"speed"	
+	{
+		"0"	"50"	
+	}
+	"speed_delta"
+	{
+		"0"	"50"	
+		"0.3""10"
+		"0.6""10"
+		"1"	"10"
+	}
+
+	"spread_angle"	"45"
+	"spread_radius" "5"
+	"spread_radius_angle" "30"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.5"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"2 5"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+//»ý¼ººÒ²É
+"particle"
+{
+
+	"fixed_position" "1"
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"100 0 0"
+	"angle_offset_1"	"0 0 0"
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"30"
+	}
+
+	"material"		"effects/yellowflare"
+
+	"particle_count"	"2"
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+
+	"die_time"		
+	{
+		"0"	"0.3 0.4"
+	}
+
+	"speed"	
+	{
+		"0"	"10 20"	
+	}
+	"speed_delta"
+	{
+		"0"	"30"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+    "spread_angle"	"0"	
+	"spread_radius" "0"
+	"spread_radius_angle" "30"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 1"
+	}
+
+	"start_size" "3"
+	"size_delta"
+	{
+		"0"	"20"
+		"0.3"	"7"
+		"0.5"	"5"
+		"0.7"	"2"
+		"1"	"1"
+	}
+	"alpha_delta"	
+	{
+		"0"	"255"
+		"0.7" "200"
+		"1"	"20"
+	}
+
+
+	"start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"100"
+		"0.5"	"200"
+		"1"	"300"
+	}
+}
+
+
+//°¡·çÆÄÆ¼Å¬1/////////////////////////////////////////////////
+
+"particle"
+{
+
+	"fixed_position" "1"
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"100 0 0"
+	"angle_offset_1"	"0 0 0"
+
+
+	"emitter"	"simple"
+
+	"gravity"	
+	{
+		"0"	"-5"
+		"1"	"0"
+	}
+
+	"emit_interval"	"0.02"
+	"emit_duration" "0.1"
+
+	"material"		"effects/yellowflare2"
+
+	"particle_count"	
+	{
+		"0"	"12"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 249 178"
+		"0.5" "255 150 66"
+	}
+
+	
+	"die_time"		
+	{
+		"0"	"1 0.7"
+	}
+
+	"speed"	
+	{
+		"0"	"6 8"	
+	}
+	"speed_delta"
+	{
+		"0"	"5"	
+		"0.2"	"5"
+		"1"	"3"
+	}
+
+	"spread_angle"		
+	{
+		"0"	"0 0"
+	}
+
+	"spread_radius"
+	{
+		"0"	"0"
+		"0.5"	"3"
+		"1"	"5"
+	}
+	"spread_radius_angle"
+	{
+		"0"	"-360 360"
+	}
+
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 0.6"
+	}
+	"start_size"  "1 2"
+	"size_delta"
+	{
+		"0" 	"1"
+		"0.5"	"-1"
+		"1"   "-1"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.6"	"100"
+		"1"	"10"
+	}
+	"start_roll" "-360 360"
+	"roll_delta"	
+	{
+		"0"	"10"
+		"0.5"	"50"
+		"1"	"80"
+	}
+
+	"length" "0.5 1"
+	"width" "5 5"
+	"wind_blown"		"0"
+//	"use_light"		"0"
+	"no_screen"		"0"
+}
+
+

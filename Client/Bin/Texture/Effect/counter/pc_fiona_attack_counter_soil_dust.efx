@@ -1,0 +1,185 @@
+
+//坷弗率1////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"0"
+
+	"position_offset_1"	"60 20 -10"
+  "delay" "0.1"
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"1"
+
+	"position_offset_1"	"60 20 -10"
+  "delay" "0.1"
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"2"
+
+	"position_offset_1"	"60 20 -10"
+  "delay" "0.1"
+}
+
+
+//坷弗率2///////////////////////////
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"0"
+
+	"position_offset_1"	"90 30 -10"
+  "delay" "0.2"
+
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"1"
+
+	"position_offset_1"	"90 30 -10"
+  "delay" "0.2"
+
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"2"
+
+	"position_offset_1"	"90 30 -10"
+  "delay" "0.2"
+
+}
+
+//坷弗率3///////////////////////////
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"0"
+
+	"position_offset_1"	"130 40 -10"
+  "delay" "0.3"
+
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"1"
+
+	"position_offset_1"	"130 40 -10"
+  "delay" "0.3"
+
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"2"
+
+	"position_offset_1"	"130 40 -10"
+  "delay" "0.3"
+
+}
+
+
+//哭率1////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"0"
+
+	"position_offset_1"	"60 -20 -10"
+  "delay" "0.1"
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"1"
+
+	"position_offset_1"	"60 -20 -10"
+  "delay" "0.1"
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"2"
+
+	"position_offset_1"	"60 -20 -10"
+  "delay" "0.1"
+}
+
+
+//哭率2///////////////////////////
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"0"
+
+	"position_offset_1"	"90 -40 -10"
+  "delay" "0.2"
+
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"1"
+
+	"position_offset_1"	"90 -30 -10"
+  "delay" "0.2"
+
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"2"
+
+	"position_offset_1"	"90 -30 -10"
+  "delay" "0.2"
+
+}
+
+//哭率3///////////////////////////
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"0"
+
+	"position_offset_1"	"130 -30 -10"
+  "delay" "0.3"
+
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"1"
+
+	"position_offset_1"	"130 -40 -10"
+  "delay" "0.3"
+
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/pc_fiona_attack_counter_dust_template.efx"
+	"bind_index"	"2"
+
+	"position_offset_1"	"130 -50 -10"
+  "delay" "0.3"
+
+}
+
+

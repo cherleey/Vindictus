@@ -1,0 +1,633 @@
+
+//脾绰 阂采//////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"80	-10 -5"
+	"angle_offset_1"	"50 0 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.45"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"1"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"1.5"
+	}
+
+	"speed"	
+	{
+		"0"	"50 100"	
+	}
+	"speed_delta"
+	{
+		"0"	"80"	
+		"0.3"	"50"
+		"0.6"	"20"
+		"1"	"10"
+	}
+
+	"spread_angle"	"35"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.6"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"2 5"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+
+//积己阂采
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"50 5 0"
+	"angle_offset_1"	"40 0 0"
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"30"
+	}
+
+	"material"		"effects/yellowflare"
+
+	"particle_count"	"1"
+
+	"color_min"		
+	{	
+		"0"	"246 226 203"
+	}
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.45"
+
+	
+	"die_time"		
+	{
+		"0"	"0.3"
+	}
+
+	"speed"	
+	{
+		"0"	"10 50"	
+	}
+	"speed_delta"
+	{
+		"0"	"30"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+    "spread_angle"	"20"	
+	"spread_radius" "0"
+	"spread_radius_angle" "30"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 1"
+	}
+
+	"size_delta"
+	{
+		"0"	"7"
+		"0.1"	"1"
+		"0.2"	"7"
+		"0.5"	"2"
+		"1"	"1"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"200"
+		"0.7"	"100"
+		"1"	"20"
+	}
+
+
+	"start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"100"
+		"0.5"	"200"
+		"1"	"300"
+	}
+}
+
+
+//积己阂采
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"90 -5 0"
+	"angle_offset_1"	"40 0 0"
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"30"
+	}
+
+	"material"		"effects/yellowflare"
+
+	"particle_count"	"1"
+
+	"color_min"		
+	{	
+		"0"	"246 226 203"
+	}
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.45"
+
+	
+	"die_time"		
+	{
+		"0"	"0.3"
+	}
+
+	"speed"	
+	{
+		"0"	"10 50"	
+	}
+	"speed_delta"
+	{
+		"0"	"30"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+    "spread_angle"	"20"	
+	"spread_radius" "0"
+	"spread_radius_angle" "30"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 1"
+	}
+
+	"size_delta"
+	{
+		"0"	"7"
+		"0.1"	"1"
+		"0.2"	"7"
+		"0.5"	"2"
+		"1"	"1"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"200"
+		"0.7"	"100"
+		"1"	"20"
+	}
+
+
+	"start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"100"
+		"0.5"	"200"
+		"1"	"300"
+	}
+}
+
+
+//脾绰 阂采//////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"40 -10 -5"
+	"angle_offset_1"	"80 0 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.45"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"1"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"1.5"
+	}
+
+	"speed"	
+	{
+		"0"	"50 100"	
+	}
+	"speed_delta"
+	{
+		"0"	"80"	
+		"0.3"	"50"
+		"0.6"	"20"
+		"1"	"10"
+	}
+
+	"spread_angle"	"35"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.6"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"2 5"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+
+//积己阂采
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"60 5 0"
+	"angle_offset_1"	"40 0 0"
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"30"
+	}
+
+	"material"		"effects/yellowflare"
+
+	"particle_count"	"1"
+
+	"color_min"		
+	{	
+		"0"	"246 226 203"
+	}
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.45"
+
+	
+	"die_time"		
+	{
+		"0"	"0.3"
+	}
+
+	"speed"	
+	{
+		"0"	"10 50"	
+	}
+	"speed_delta"
+	{
+		"0"	"30"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+    "spread_angle"	"20"	
+	"spread_radius" "0"
+	"spread_radius_angle" "30"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 1"
+	}
+
+	"size_delta"
+	{
+		"0"	"7"
+		"0.1"	"1"
+		"0.2"	"7"
+		"0.5"	"2"
+		"1"	"1"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"200"
+		"0.7"	"100"
+		"1"	"20"
+	}
+
+
+	"start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"100"
+		"0.5"	"200"
+		"1"	"300"
+	}
+}
+
+
+//积己阂采
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"2 -3 0"
+	"angle_offset_1"	"50 0 0"
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"30"
+	}
+
+	"material"		"effects/yellowflare"
+
+	"particle_count"	"1"
+
+	"color_min"		
+	{	
+		"0"	"246 226 203"
+	}
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.45"
+
+	
+	"die_time"		
+	{
+		"0"	"0.2"
+	}
+
+	"speed"	
+	{
+		"0"	"10 50"	
+	}
+	"speed_delta"
+	{
+		"0"	"30"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+    "spread_angle"	"20"	
+	"spread_radius" "0"
+	"spread_radius_angle" "30"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 1"
+	}
+
+	"size_delta"
+	{
+		"0"	"7"
+		"0.1"	"1"
+		"0.2"	"5"
+		"0.5"	"2"
+		"1"	"1"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"200"
+		"0.7"	"100"
+		"1"	"20"
+	}
+
+
+	"start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"100"
+		"0.5"	"200"
+		"1"	"300"
+	}
+}
+
+//积己阂采
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"2 -3 0"
+	"angle_offset_1"	"30 0 0"
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"30"
+	}
+
+	"material"		"effects/yellowflare"
+
+	"particle_count"	"1"
+
+	"color_min"		
+	{	
+		"0"	"246 226 203"
+	}
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.45"
+
+	
+	"die_time"		
+	{
+		"0"	"0.2"
+	}
+
+	"speed"	
+	{
+		"0"	"10 50"	
+	}
+	"speed_delta"
+	{
+		"0"	"30"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+    "spread_angle"	"20"	
+	"spread_radius" "0"
+	"spread_radius_angle" "30"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 1"
+	}
+
+	"size_delta"
+	{
+		"0"	"7"
+		"0.1"	"1"
+		"0.2"	"10"
+		"0.5"	"2"
+		"1"	"1"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"200"
+		"0.7"	"100"
+		"1"	"20"
+	}
+
+
+	"start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"100"
+		"0.5"	"200"
+		"1"	"300"
+	}
+}
+
+//积己阂采
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"2 -3 0"
+	"angle_offset_1"	"20 0 0"
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"30"
+	}
+
+	"material"		"effects/yellowflare"
+
+	"particle_count"	"1"
+
+	"color_min"		
+	{	
+		"0"	"246 226 203"
+	}
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.45"
+
+	
+	"die_time"		
+	{
+		"0"	"0.2"
+	}
+
+	"speed"	
+	{
+		"0"	"10 50"	
+	}
+	"speed_delta"
+	{
+		"0"	"30"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+    "spread_angle"	"20"	
+	"spread_radius" "0"
+	"spread_radius_angle" "30"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 1"
+	}
+
+	"size_delta"
+	{
+		"0"	"7"
+		"0.1"	"1"
+		"0.2"	"5"
+		"0.5"	"2"
+		"1"	"1"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"200"
+		"0.7"	"100"
+		"1"	"20"
+	}
+
+
+	"start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"100"
+		"0.5"	"200"
+		"1"	"300"
+	}
+}

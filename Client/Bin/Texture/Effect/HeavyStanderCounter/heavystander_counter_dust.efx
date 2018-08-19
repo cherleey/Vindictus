@@ -1,0 +1,19 @@
+
+"ground_effect_bind"
+{
+	"bind_name"
+	{
+		"C"			"effects/player/heavystander_counter_dust_soil.efx"
+		"D"			"effects/player/heavystander_counter_dust_soil.efx"
+		"W"			"effects/player/heavystander_counter_soil.efx"
+		
+		// P°¡ ICE, SNOW ÀÓ
+		"P"			"effects/player/heavystander_counter_dust_ice.efx"
+	}
+	
+	"replace_param"
+	{
+	}
+
+	"follow_parent_1"	"1"
+}

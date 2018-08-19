@@ -1,0 +1,22 @@
+
+"ground_effect_bind"
+{
+	"bind_name"
+	{
+		"C"			"effects/player/pc_lethita_attack_strong_02_soil_dust.efx"
+		"D"			"effects/player/pc_lethita_attack_strong_02_soil_dust.efx"
+		"W"			"effects/player/pc_lethita_attack_strong_02_soil_dust.efx"
+		
+		"S"			"effects/player/pc_lethita_attack_strong_02_water_dust.efx"
+		
+		// P∞° ICE, SNOW ¿”
+		"P"			"effects/player/pc_lethita_attack_strong_02_ice_dust.efx"
+		"N"			"effects/player/pc_lethita_attack_strong_02_sand_dust.efx"
+	}
+	
+	"replace_param"
+	{
+	}
+
+	"follow_parent_1"	"1"
+}

@@ -1,0 +1,1041 @@
+//바위/////////////////////////////////////////////////
+
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"1"
+	"position_offset_1"	"65 0 10"
+	"angle_offset_1"     "0 0 0" 
+
+	"emitter"	"simple"
+
+	"gravity"	
+	{
+		"0"	"-5"
+		"1"	"0"
+	}
+
+	"emit_interval"	"0.1"
+	"emit_duration" "0.1"
+
+	"material"		"effects/stone_04"
+
+	"particle_count"	
+	{
+		"0"	"1"
+	}
+
+	"color_min"	"126 112 92"
+	
+	"die_time"		
+	{
+		"0"	"1 0.7"
+	}
+
+	"spread_angle"		
+	{
+		"0"	"0 0"
+	}
+
+	"spread_radius"
+	{
+		"0"	"0"
+		"0.3"	"4"
+		"1"	"4"
+	}
+	"spread_radius_angle"
+	{
+		"0"	"-360 360"
+	}
+
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 0.6"
+	}
+	"start_size"  "2"
+	"size_delta"
+	{
+		"0" 	"2"
+		"0.3"	"8"
+		"1"   "10"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.8"	"200"
+		"1"	"10"
+	}
+
+    "start_roll" "-360 360"
+	"roll_delta"	
+	{
+		"0"	"0"
+		"0.5"	"10"
+		"1"	"15"
+	}
+	"length" "0.5 1"
+	"width" "5 5"
+	"wind_blown"		"0"
+//	"use_light"		"0"
+	"no_screen"		"0"
+}
+
+//바위/////////////////////////////////////////////////
+
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"1"
+	"position_offset_1"	"70 0 0"
+	"angle_offset_1"     "0 0 0" 
+
+	"emitter"	"simple"
+	// "delay" "0.1"
+
+	"gravity"	
+	{
+		"0"	"-5"
+		"1"	"0"
+	}
+
+	"emit_interval"	"0.1"
+	"emit_duration" "0.1"
+
+	"material"		"effects/stone_big01"
+
+	"particle_count"	"2 3"
+	
+	"color_min"	"126 112 92"
+	
+	"die_time"		
+	{
+		"0"	"1 0.7"
+	}
+	
+	// "speed" "100"
+
+	"spread_angle"		
+	{
+		"0"	"360"
+	}
+
+	"spread_radius"
+	{
+		"0"	"0"
+		"0.3"	"30"
+		// "1"	"20"
+	}
+	"spread_radius_angle"
+	{
+		"0"	"-360 360"
+	}
+
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+	"start_size"  "1"
+	"size_delta"
+	{
+		"0" 	"2"
+		"0.3"	"3.5"
+		"1"   "4"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.8"	"200"
+		"1"	"10"
+	}
+
+    "start_roll" "-360 360"
+	"roll_delta"	
+	{
+		"0"	"-30"
+		"0.5"	"-20"
+		"1"	"-15"
+	}
+	"length" "0.5 1"
+	"width" "5 5"
+	"wind_blown"		"0"
+//	"use_light"		"0"
+	"no_screen"		"0"
+}
+
+//바위/////////////////////////////////////////////////
+
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"1"
+	"position_offset_1"	"65 10 0"
+	"angle_offset_1"     "0 0 0" 
+
+	"emitter"	"simple"
+	// "delay" "0.15"
+
+	"gravity"	
+	{
+		"0"	"-5"
+		"1"	"0"
+	}
+
+	"emit_interval"	"0.1"
+	"emit_duration" "0.1"
+
+	"material"		"effects/stone_03"
+
+	"particle_count"	
+	{
+		"0"	"1"
+	}
+
+	"color_min"	"126 112 92"
+	
+	"die_time"		
+	{
+		"0"	"1 0.7"
+	}
+
+	"spread_angle"		
+	{
+		"0"	"0 0"
+	}
+
+	"spread_radius"
+	{
+		"0"	"0"
+		"0.3"	"4"
+		"1"	"4"
+	}
+	"spread_radius_angle"
+	{
+		"0"	"-360 360"
+	}
+
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 0.6"
+	}
+	"start_size"  "2"
+	"size_delta"
+	{
+		"0" 	"4"
+		"0.3"	"14"
+		"1"   "15"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.8"	"200"
+		"1"	"10"
+	}
+
+    "start_roll" "-360 360"
+	"roll_delta"	
+	{
+		"0"	"-30"
+		"0.5"	"-20"
+		"1"	"-15"
+	}
+	"length" "0.5 1"
+	"width" "5 5"
+	"wind_blown"		"0"
+//	"use_light"		"0"
+	"no_screen"		"0"
+}
+
+//검은 바위/////////////////////////////////////////////////
+
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"1"
+	"position_offset_1"	"55 0 5"
+	"angle_offset_1"     "0 0 0" 
+
+	"emitter"	"simple"
+
+	"gravity"	
+	{
+		"0"	"-5"
+		"1"	"0"
+	}
+
+	"emit_interval"	"0.1"
+	"emit_duration" "0.1"
+
+	"material"		"effects/stone_02"
+
+	"particle_count"	
+	{
+		"0"	"1"
+	}
+
+	"color_min"	"126 112 92"
+	
+	"die_time"		
+	{
+		"0"	"1 0.7"
+	}
+
+	"spread_angle"		
+	{
+		"0"	"0 0"
+	}
+
+	"spread_radius"
+	{
+		"0"	"0"
+		"0.3"	"4"
+		"1"	"4"
+	}
+	"spread_radius_angle"
+	{
+		"0"	"-360 360"
+	}
+
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 0.6"
+	}
+	"start_size"  "2"
+	"size_delta"
+	{
+		"0" 	"2"
+		"0.3"	"8"
+		"1"   "10"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.8"	"200"
+		"1"	"10"
+	}
+
+    "start_roll" "-360 360"
+	"roll_delta"	
+	{
+		"0"	"0"
+		"0.5"	"10"
+		"1"	"15"
+	}
+	"length" "0.5 1"
+	"width" "5 5"
+	"wind_blown"		"0"
+//	"use_light"		"0"
+	"no_screen"		"0"
+}
+
+// 불줄////////////////////////////////////////////////////////////
+
+"particle"
+{
+	"fixed_position"	"1"
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1" "55 0 -15"	
+
+	"emitter"	"trail"
+	"gravity"	
+	{
+		"0"	"10"
+	}
+
+	"material"		"effects/yellowflare5"
+
+	"emit_interval"	"0.01"
+	"emit_duration" "0.15"
+
+	"particle_count"	"3"
+
+	"color_min" "254 208 180"
+
+	"die_time"	"0.1 0.15"
+
+	"speed"		"180 50"
+	"speed_delta"
+	{
+		"0"	"30"	
+		"0.2" "10"
+		"0.5" "10"
+
+	}
+	"spread_angle"	"50"
+	"spread_radius" "10"
+	"spread_radius_angle" "360"
+	"use_spread_direction"	"1"
+
+	"color_ramp"	"1"
+
+	"alpha_delta"	
+	{
+		"0.0"	"255"
+		"0.3"	"255"
+		"0.7"	"55"
+		"1"	"0"
+	}
+	
+	"start_length" "0.5 0.7"
+	"start_width" "17 23"
+}
+
+//번쩍이는 빛/////////////////////////////////////////////
+"particle"
+{
+	"fixed_position"	"1"
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+	"position_offset_1" "55 0 0"	
+
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"30"
+	}
+
+	"material"		"effects/bomb"
+
+	"particle_count"	"5"
+
+	// "color_min" "177 254 177"
+	"color_min" "254 242 177"
+	
+	"die_time"		
+	{
+		"0"	"0.2"
+	}
+
+	"speed"	
+	{
+		"0"	"10 5"	
+	}
+	"speed_delta"
+	{
+		"0"	"3"	
+		"0.3" "1"
+		"1"	"0"
+	}
+	
+    "spread_angle"	"20"	
+	"spread_radius" "20"
+	"spread_radius_angle" "30"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 1"
+	}
+
+	"size_delta"
+	{
+		"0"	"10"
+		"0.2" "20"
+		"0.3" "14"
+		"0.4" "2"
+
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"150"
+		"1"	"20"
+	}
+
+
+	"start_roll"    "-360 360"	
+	"roll_delta"	
+	{
+		"0"	"50"
+		"0.5" "100"
+		"1"	"150"
+	}
+}
+
+/////////////// 빛나는 빛줄기 ////////////////
+"particle"
+{
+	"position_offset_1"	"55 0 -20"
+	"angle_offset_1"	"0 0 0"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	// "delay" "0.1"
+
+    "emitter"	"trail"
+	"gravity"	
+	{
+		"0"	"0"
+		"1"	"0"
+	}
+
+	// "material"		"effects/yellowflare5"
+	"material"		"effects/dust"
+
+	"particle_count" "10"
+
+	"color_min"		
+	{	
+		"0"	"255 255 200"
+	}
+	
+	"emit_interval"	"0.03"
+	"emit_duration" "0.1"
+	"die_time"		
+	{
+		"0"	"0.4 0.2"
+	}
+
+	"speed"	
+	{
+		"0"	"50 60"	
+	}
+	"speed_delta"
+	{
+		"0"	"60"	
+		"0.1"	"10"
+		"1"	"0"
+	}
+
+	"spread_box_min"
+	{
+		"0"	"-20 -20 -20"
+	}
+	"spread_box_max"
+	{
+		"0"	"20 20 20"
+	}
+
+	"use_spread_direction"	"1"
+	
+	"color_ramp"	
+	{
+		"0"	"0.2 0.4"
+	}
+
+	"size_delta"
+	{
+		"0"	"10"
+		"0.2"	"6"
+		"1"	"2"
+	}
+	"alpha_delta"	
+	{
+		"0"	"255"
+		"0.5"	"255"
+		"0.8" "100"
+		"1"	"0"
+	}
+	
+	"spread_angle"	"65"
+	"spread_radius" "5"
+	"spread_radius_angle" "30"
+	"use_spread_direction"	"1"	
+	
+	"length" "0.5 2"
+
+	"width" "5 5"
+	"wind_blown"		"1"
+	"use_light"		"0"
+	"no_screen"		"0"
+
+	"start_width" 		"30 25"
+	"start_length"		"1 2"
+}
+
+//불꽃가루파티클2/////////////////////////////////////////////////
+
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"1"
+	"position_offset_1"	"65 0 40"
+	"angle_offset_1"     "0 0 0" 
+
+	"emitter"	"simple"
+	// "delay" "0.2"
+
+	"gravity"	
+	{
+		"0"	"-5"
+		"1"	"0"
+	}
+
+	"emit_interval"	"0.02"
+	"emit_duration" "0.1"
+
+	"material"		"effects/yellowflare2"
+
+	"particle_count"	
+	{
+		"6"	"18"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 249 178"
+		"0.5"	"255 150 26"
+	}
+
+	
+	"die_time"		
+	{
+		"0"	"1 0.7"
+	}
+
+	"speed"	
+	{
+		"0"	"12 15"	
+	}
+	"speed_delta"
+	{
+		"0"	"20"	
+		"0.2"	"8"
+		"1"	"8"
+	}
+
+	"spread_angle"		
+	{
+		"0"	"0 0"
+	}
+
+	"spread_radius"
+	{
+		"0"	"0"
+		"0.5"	"24"
+		"1"	"30"
+	}
+	"spread_radius_angle"
+	{
+		"0"	"-360 360"
+	}
+
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 0.6"
+	}
+	"start_size"  "1 2"
+	"size_delta"
+	{
+		"0" 	"3"
+		"0.5"	"-1"
+		"1"   "-1"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.6"	"100"
+		"1"	"10"
+	}
+	"start_roll" "-360 360"
+	"roll_delta"	
+	{
+		"0"	"10"
+		"0.5"	"50"
+		"1"	"80"
+	}
+
+	"length" "0.5 1"
+	"width" "5 5"
+	"wind_blown"		"0"
+//	"use_light"		"0"
+	"no_screen"		"0"
+}
+
+//돌가루/////////////////////////////////////////////////
+
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"1"
+	"position_offset_1"	"55 0 40"
+	"angle_offset_1"     "0 0 0" 
+
+	"emitter"	"simple"
+	// "delay" "0.08"
+
+	"gravity"	
+	{
+		"0"	"55"
+		"0.3" "100"
+		"1"	"100"
+	}
+
+	"emit_interval"	"0.02"
+	"emit_duration" "0.1"
+
+	"material"		"effects/particle_stone"
+
+	"particle_count"	
+	{
+		"0"	"3 6"
+	}
+
+	"color_min"	"170 163 138"
+	
+	"die_time"		
+	{
+		"0"	"1 0.7"
+	}
+
+	"speed"	
+	{
+		"0"	"30"	
+	}
+	"speed_delta"
+	{
+		"0"	"30"	
+		"0.5"	"0"
+		"1"	"-10"
+	}
+
+	"spread_angle"		
+	{
+		"0"	"0 0"
+	}
+
+	"spread_radius"
+	{
+		"0"	"0"
+		"0.5"	"30"
+		"1"	"45"
+	}
+	"spread_radius_angle"
+	{
+		"0"	"-360 360"
+	}
+
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"1 0.6"
+	}
+	"start_size"  "1 2"
+	"size_delta"
+	{
+		"0" 	"3"
+		"0.5"	"6"
+		"0.8" "2"
+		"1"   "-2"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.6"	"100"
+		"1"	"10"
+	}
+	"start_roll" "-360 360"
+	"roll_delta"	
+	{
+		"0"	"10"
+		"0.5"	"50"
+		"1"	"80"
+	}
+
+	"length" "0.5 1"
+	"width" "5 5"
+	"wind_blown"		"0"
+//	"use_light"		"0"
+	"no_screen"		"0"
+}
+
+//거대링2////////////////////////////////////////////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"55 0 10"
+	"angle_offset_1"     "0 0 0" 
+
+    // "delay" "0.1"
+
+	"material"		"effects/wind_blade_small"
+	 // "material"		"effects/ring_disk"
+
+	"emit_interval"	"0.02"
+	"emit_duration" "0.03"
+	
+	"emitter"	"simple"
+	"gravity"	"0"
+
+	"particle_count"	"2 4"
+	"die_time"		"0.25"
+
+	"speed"			"30"
+
+	"color_ramp"	"1"
+	"color_min"	"255 255 255"
+
+	"use_light"		"0"
+	"wind_blown"		"0"
+	"use_local"		"0"
+
+	"start_roll" "-360 360"
+	"roll_delta"	
+	{
+		"0"	"0"
+		"0.5"	"100"
+		"1"	"150"
+	}
+
+	"alpha_delta"	
+	{
+		"0"	"150"
+		"0.3" "30"
+		"0.6"	"0"
+	}	
+
+	"size_delta"
+	{
+		"0"	"3"
+		"0.2"	"30"
+		"1" "45"
+	}
+
+	"no_screen"	"1"
+}
+
+//먼지/////////////////////////////////
+"particle"
+{
+	"not_use"	"1"
+	
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"55 0 -20"
+	"angle_offset_1"       "0 0 0" 
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"-5"
+	}
+
+	"material"		"effects/dust"
+
+	"particle_count"	"2 3"
+
+	"color_min"		
+	{	
+		"0"	"208 169 100"
+	}
+
+	
+	"emit_interval"	"0.03"
+	"emit_duration"	"0.5"
+
+
+	"die_time"		
+	{
+		"0"	"2 2"
+	}
+
+	"speed"	
+	{
+		"0"	"5 15"	
+	}
+	"speed_delta"
+	{
+		"0"	"17"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+	"spread_angle"	"70"	
+	"spread_radius" "20"
+	"spread_radius_angle" "50"
+	"use_spread_direction"	"1"
+	
+	"use_light" "0.5"
+	
+	"color_ramp"	
+	{
+		"0"	"0.2 0.4"
+	}
+    "start_size" "2 4"
+	"size_delta"
+	{
+		"0"	"8"
+		"0.5"	"10"
+		"1"	"14"
+	}
+	"alpha_delta"	
+	{
+		"0.1"	"200"
+		"0.5"	"50"
+		"1"	"0"
+	}
+	
+  "start_roll"    "-60  60"
+	"roll_delta"	
+	{
+		"0"	"0"
+		"0.5"	"100"
+		"1"	"250"
+	}
+}
+
+//빠르고 검은 먼지/////////////////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"55 0 -20"
+	"angle_offset_1"       "0 0 0" 
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"-50"
+	}
+
+	"material"		"effects/dust"
+
+	"particle_count"	"2 3"
+
+	"color_min"		
+	{	
+		"0"	"208 169 100"
+	}
+
+	
+	"emit_interval"	"0.05"
+	"emit_duration"	"0.1"
+
+
+	"die_time"		
+	{
+		"0"	"0.8 1.2"
+	}
+
+	"speed"	
+	{
+		"0"	"50"	
+	}
+	"speed_delta"
+	{
+		"0"	"170"	
+		"0.3"	"100"
+		"1"	"0"
+	}
+	
+	"spread_angle"	"90"	
+	"spread_radius" "20"
+	"spread_radius_angle" "50"
+	"use_spread_direction"	"1"
+	
+	"use_light" "0.5"
+	
+	"color_ramp"	
+	{
+		"0"	".7"
+	}
+    "start_size" "4 8"
+	"size_delta"
+	{
+		"0"	"8"
+		"0.3"	"20"
+		"1"	"28"
+	}
+	"alpha_delta"	
+	{
+		"0.1"	"200"
+		"0.3"   "150"
+		"1"	"0"
+	}
+	
+  "start_roll"    "-360  360"
+	"roll_delta"	
+	{
+		"0"	"0"
+		"0.3"	"150"
+		// "0.6"  "280"
+		"1"	"360"
+	}
+}
+
+
+//검은 가루 파티클////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"55 0 -10"
+
+	"emitter"	"simple"
+	"gravity"	
+	{
+		"0"	"250"
+	}
+
+	"material"		"effects/ring_fire_dark"
+
+	"particle_count" "30"
+
+	"color_min"	"255 179 81"	
+	
+	"die_time" "0.5 0.3"
+
+	"speed"	
+	{
+		"0"	"300 120"	
+	}
+	"speed_delta"
+	{
+		"0"	"150"	
+		// "0.3"	"100"
+		"1"	"1"
+	}
+
+	"spread_angle"	"65"	
+	"spread_radius"	"20"
+	"spread_radius_angle"	"30"
+
+	"use_spread_direction"	"1"
+
+	"color_ramp" "0.1"
+
+    "start_size" 	"2 4"
+	"size_delta"
+	{
+		"0"	"4"
+		"0.3" "1"
+		"1"	"-1"
+	}
+	"alpha_delta"	
+	{
+		"0"	"250"
+		"0.3" "250"
+		"0.5" "50"
+		"1"	"1"
+	}
+    "start_roll"    "-360  360"	
+	"roll_delta"	
+	{
+		"0"	"50"
+		"0.5"	"100"
+		"1"	"150"
+	}
+}

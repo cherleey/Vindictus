@@ -1,0 +1,443 @@
+//Æ¢´Â ºÒ²É//////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"-10 0 -5"
+	"angle_offset_1"	"-50 0 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.2"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"3"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"0.6"
+	}
+
+	"speed"	
+	{
+		"0"	"50 170"	
+	}
+	"speed_delta"
+	{
+		"0"	"80"	
+		"0.3"	"50"
+		"0.6"	"20"
+		"1"	"10"
+	}
+
+	"spread_angle"	"35"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.6"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"4 7"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+//Æ¢´Â ÀÛÀººÒ²É//////////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"-10 0 -5"
+	"angle_offset_1"	"-50 0 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.2"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"3"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"0.6"
+	}
+
+	"speed"	
+	{
+		"0"	"70"	
+	}
+	"speed_delta"
+	{
+		"0"	"50"	
+		"0.3""10"
+		"0.6""10"
+		"1"	"10"
+	}
+
+	"spread_angle"	"45"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.5"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"4 6"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+//Æ¢´Â ºÒ²É//////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"0 0 -5"
+	"angle_offset_1"	"50 0 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0.15"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.2"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"2"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"0.6"
+	}
+
+	"speed"	
+	{
+		"0"	"50 170"	
+	}
+	"speed_delta"
+	{
+		"0"	"80"	
+		"0.3"	"50"
+		"0.6"	"20"
+		"1"	"10"
+	}
+
+	"spread_angle"	"35"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.6"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"3 5"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+//Æ¢´Â ÀÛÀººÒ²É//////////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"0 0 -5"
+	"angle_offset_1"	"50 0 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0.15"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.2"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"1"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"0.6"
+	}
+
+	"speed"	
+	{
+		"0"	"70"	
+	}
+	"speed_delta"
+	{
+		"0"	"50"	
+		"0.3""10"
+		"0.6""10"
+		"1"	"10"
+	}
+
+	"spread_angle"	"45"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.5"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"3 5"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+//Æ¢´Â ºÒ²É//////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"-5 0 -5"
+	"angle_offset_1"	"50 -80 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0.1"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.2"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"2"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"0.6"
+	}
+
+	"speed"	
+	{
+		"0"	"50 170"	
+	}
+	"speed_delta"
+	{
+		"0"	"80"	
+		"0.3"	"50"
+		"0.6"	"20"
+		"1"	"10"
+	}
+
+	"spread_angle"	"35"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.6"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"3 5"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}
+
+//Æ¢´Â ÀÛÀººÒ²É//////////////////////////
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"-5 0 -5"
+	"angle_offset_1"	"50 -90 0"
+
+	"material"		"effects/yellowflare"
+	"delay"	"0.1"
+	
+	"emitter"	"trail"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"0.2"
+
+	"gravity"	
+	{
+		"0"	"150"
+	}
+	
+	"particle_count"	
+	{
+		"0"	"1"
+	}
+
+	"color_min"		
+	{	
+		"0"	"255 255 255"
+	}
+	
+	"die_time"		
+	{
+		"0"	"0.6"
+	}
+
+	"speed"	
+	{
+		"0"	"70"	
+	}
+	"speed_delta"
+	{
+		"0"	"50"	
+		"0.3""10"
+		"0.6""10"
+		"1"	"10"
+	}
+
+	"spread_angle"	"45"
+	"spread_radius" "5"
+	"spread_radius_angle" "0"
+
+	"use_spread_direction"	"1"
+
+	"start_length" 	"0.07 0.1"
+	"start_width" 	"1.5 0.5"
+
+	"color_ramp"	
+	{
+		"0"	"1"
+	}
+
+	"start_size"	"3 5"
+
+	"alpha_delta"	
+	{
+		"0.3"	"255"
+		"0.7"	"200"
+		"1"	"50"
+	}
+
+
+}

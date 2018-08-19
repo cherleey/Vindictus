@@ -1,0 +1,290 @@
+//불줄굴절/////////////////////////////////////////////////////////////////////////
+"particle"
+{
+
+	"bone_1"	"ValveBiped.Anim_Attachment_RH"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+	"position_offset_1"	"5 0 0"
+	"angle_offset_1"	"180 0 0"
+
+
+	"emitter"	"trail"
+	"gravity"	
+	{
+		"0"	"0"
+	}
+
+	"material"		"effects/efx_ripple"
+
+	"emit_interval"	"0.02"
+	"emit_duration"	"1"
+
+	"particle_count"	"3"
+
+	"color_min"	"255 176 124"
+
+	"die_time"	"0.2"
+
+	"speed"		"-50 -70"
+	"speed_delta"
+	{
+		"0"	    "-10"	
+		"0.3"	"-5"
+
+	}
+	"spread_angle"	"10"
+	"spread_radius" "20"
+	"spread_radius_angle" "20"
+	"use_spread_direction"	"1"
+
+
+	"color_ramp"	"1"
+
+	"alpha_delta"	
+	{
+		"0.0"	"255"
+		"0.1"	"100"
+		"0.2"	"255"
+		"0.6"	"100"
+		"1"	"0"
+	}
+	
+	"start_length" "0.9 0.5"
+	"start_width" "1 3"
+}
+
+
+
+//불줄/////////////////////////////////////////////////////////////////////////
+"particle"
+{
+
+	"bone_1"	"ValveBiped.Anim_Attachment_RH"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+	"position_offset_1"	"0 0 0"
+	"angle_offset_1"	"180 0 0"
+
+
+	"emitter"	"trail"
+	"gravity"	
+	{
+		"0"	"0"
+	}
+
+	"material"		"effects/smoke_01_black"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"1"
+
+	"particle_count"	"1"
+
+	"color_min"	"193 247 255"
+
+	"die_time"	"0.1"
+
+	"speed"		"-50 -70"
+	"speed_delta"
+	{
+		"0"	    "-10"	
+		"0.3"	"-5"
+
+	}
+	"spread_angle"	"5"
+	"spread_radius" "10"
+	"spread_radius_angle" "10"
+	"use_spread_direction"	"1"
+
+
+	"color_ramp"	"1"
+
+	"alpha_delta"	
+	{
+		"0.0"	"255"
+		"0.1"	"100"
+		"0.2"	"255"
+		"0.6"	"100"
+		"1"	"0"
+	}
+	
+	"start_length" "0.9 1.5"
+	"start_width" "7 10"
+}
+
+
+//불줄/////////////////////////////////////////////////////////////////////////
+"particle"
+{
+
+	"bone_1"	"ValveBiped.Anim_Attachment_RH"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+	"position_offset_1"	"5 0 -10"
+	"angle_offset_1"	"90 0 0"
+
+
+	"emitter"	"trail"
+	"gravity"	
+	{
+		"0"	"0"
+	}
+
+	"material"		"effects/smoke_01_black"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"1"
+
+	"particle_count"	"1"
+
+	"color_min"	"193 247 255"
+
+	"die_time"	"0.1"
+
+	"speed"		"-50 -70"
+	"speed_delta"
+	{
+		"0"	    "-10"	
+		"0.3"	"-5"
+
+	}
+	"spread_angle"	"5"
+	"spread_radius" "10"
+	"spread_radius_angle" "10"
+	"use_spread_direction"	"1"
+
+
+	"color_ramp"	"1"
+
+	"alpha_delta"	
+	{
+		"0.0"	"255"
+		"0.1"	"100"
+		"0.2"	"255"
+		"0.6"	"100"
+		"1"	"0"
+	}
+	
+	"start_length" "1.2 1.5"
+	"start_width" "8 13"
+}
+
+
+//불줄/////////////////////////////////////////////////////////////////////////
+"particle"
+{
+
+	"bone_1"	"ValveBiped.Anim_Attachment_RH"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+	"position_offset_1"	"5 0 10"
+	"angle_offset_1"	"-90 0 0"
+
+
+	"emitter"	"trail"
+	"gravity"	
+	{
+		"0"	"0"
+	}
+
+	// "material"		"effects/yellowflare4"
+	"material"		"effects/smoke_01_black"
+
+	"emit_interval"	"0.01"
+	"emit_duration"	"1"
+
+	"particle_count"	"3"
+
+	"color_min"	"193 247 255"
+
+	"die_time"	"0.1"
+
+	"speed"		"-50 -70"
+	"speed_delta"
+	{
+		"0"	    "-10"	
+		"0.3"	"-5"
+
+	}
+	"spread_angle"	"5"
+	"spread_radius" "10"
+	"spread_radius_angle" "10"
+	"use_spread_direction"	"1"
+
+
+	"color_ramp"	"1"
+
+	"alpha_delta"	
+	{
+		"0.0"	"255"
+		"0.1"	"100"
+		"0.2"	"255"
+		"0.6"	"100"
+		"1"	"0"
+	}
+	
+	"start_length" "1.2 1.5"
+	"start_width" "8 13"
+}
+
+
+//불줄/////////////////////////////////////////////////////////////////////////
+"particle"
+{
+
+	"bone_1"	"ValveBiped.Anim_Attachment_RH"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+	"position_offset_1"	"280 0 0"
+	"angle_offset_1"	"0 0 0"
+
+
+	"emitter"	"trail"
+	"gravity"	
+	{
+		"0"	"0"
+	}
+
+	// "material"		"effects/yellowflare4"
+	"material"		"effects/smoke_01_black"
+
+	"emit_interval"	"0.008"
+	"emit_duration"	"1"
+
+	"particle_count"	"12"
+
+	"color_min"	"193 247 255"
+
+	"die_time"	"0.1"
+
+	"speed"		"-50 -70"
+	"speed_delta"
+	{
+		"0"	    "-10"	
+		"0.3"	"-5"
+	}
+	"spread_angle"	"5"
+	"spread_radius" "10"
+	"spread_radius_angle" "10"
+	"use_spread_direction"	"1"
+
+
+	"color_ramp"	"1"
+
+	"alpha_delta"	
+	{
+		"0.0"	"255"
+		"0.1"	"100"
+		"0.2"	"255"
+		"0.6"	"100"
+		"1"	"0"
+	}
+	
+	"start_length" "6 4"
+	"start_width" "15 17"
+}

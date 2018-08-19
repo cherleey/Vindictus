@@ -1,0 +1,202 @@
+"particle"
+{
+	"position_offset_1"	"25 -6 37"
+	"angle_offset_1"	"0 0 0"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+
+	"alpha"			"255"
+
+	"material"		"effects/efx_sword_radial_blur"
+
+
+	// Particle specification
+	"emitter"	"simple"
+	"gravity"	"0"
+
+	"emit_interval"		"0"
+	"emit_duration"		"0"
+
+	"particle_count"	"1"
+	"die_time"		"0.25"
+
+	"speed"			"30"
+	"spread_angle"		"0 0"
+	"spread_box_min"	"0 0 0"
+	"spread_box_max"	"0 0 0"
+
+	"direction_min"		"0 0 0"
+	"direction_max"		"0 0 0"
+	
+	"velocity_min"	"0 0 0"
+	"velocity_max"	"0 0 0"
+	
+	"color_ramp"	"0.8"
+	"color_min"	"255 255 255"
+	"color_max"	"255 255 255"
+
+	"use_light"		"0"
+	"wind_blown"		"0"
+	"use_local"		"0"
+	"fixed_position"	"0"
+
+	// Simple Particle specification
+	"alpha_delta"	
+	{
+		"0"	"255"
+		"0.51"	"100"
+		"1"	"6"
+	}	
+
+	"size_delta"
+	{
+		"0"	"10"
+		"0.2"	"3"
+		"1"	"12"
+	}
+
+	"no_screen"	"1"
+}
+//굴절/////////////////////
+"particle"
+{
+	"position_offset_1"	"25 -6 37"
+	"angle_offset_1"	"0 0 0"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+
+	"alpha"			"255"
+
+	"material"		"effects/efx_ripple"
+
+	"emitter"	"simple"
+	"gravity"	"0"
+
+	"emit_interval"		"0"
+	"emit_duration"		"0"
+
+	"particle_count"	"1"
+	"die_time"		"0.5"
+
+	"speed"			"10"
+
+	
+	"color_ramp"	"0.5"
+	"color_min"	"255 255 255"
+	"color_max"	"255 255 255"
+
+	"use_light"		"0"
+	"wind_blown"		"0"
+	"use_local"		"0"
+	"fixed_position"	"0"
+
+	// Simple Particle specification
+	"alpha_delta"	
+	{
+		"0"	"255"
+		"1"	"0"
+	}	
+
+	"size_delta"
+	{
+		"0"	"15"
+		"0.3"	"7"
+		"1"	"26"
+	}
+
+	"no_screen"	"1"
+}
+
+//거대링////////////////////////////////////////////////////////////
+"particle"
+{
+	"position_offset_1"	"25 -5 35"
+	"angle_offset_1"	"0 0 0"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+
+	"material"		"effects/ring2"
+
+	"emitter"	"simple"
+	"gravity"	"0"
+
+	"particle_count"	"1"
+
+  "delay" "0.1"
+  "die_time"		"0.2"
+
+	"speed"			"1"
+	"spread_angle"		"0 0"
+	"spread_box_min"	"0 0 0"
+	"spread_box_max"	"0 0 0"
+
+	"color_ramp"	"1"
+	"color_min"	"193 244 255"
+
+	"fixed_position"	"0"
+
+	"alpha_delta"	
+	{
+		"0"	"155"
+		"0.3" "70"
+		"1"	"0"
+	}	
+
+	"size_delta"
+	{
+		"0"	"1"
+		"0.3" "5"
+		"1"	"7"
+	}
+
+	"no_screen"	"1"
+}
+
+//거대링////////////////////////////////////////////////////////////
+"particle"
+{
+	"position_offset_1"	"30 -5 35"
+	"angle_offset_1"	"0 0 0"
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"0"
+
+	"material"		"effects/ring2"
+
+	"emitter"	"simple"
+	"gravity"	"0"
+
+	"particle_count"	"1"
+
+  "delay" "0.15"
+  "die_time"		"0.2"
+
+	"speed"			"1"
+	"spread_angle"		"0 0"
+	"spread_box_min"	"0 0 0"
+	"spread_box_max"	"0 0 0"
+
+	"color_ramp"	"1"
+	"color_min"	"193 244 255"
+
+	"fixed_position"	"0"
+
+	"alpha_delta"	
+	{
+		"0"	"155"
+		"0.3" "70"
+		"1"	"0"
+	}	
+
+	"size_delta"
+	{
+		"0"	"1"
+		"0.3" "5"
+		"1"	"7"
+	}
+
+	"no_screen"	"1"
+}

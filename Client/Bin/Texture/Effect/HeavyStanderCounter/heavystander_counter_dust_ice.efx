@@ -1,0 +1,27 @@
+//1////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+"effectbind"
+{
+	"bind_name"	"effects/player/sp_shield_assult_dust_soil.efx"
+	"bind_index"	"0"
+		"material"	"effects/cold_dust"
+	"color_min" 	"191 251 250"
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/sp_shield_assult_dust_soil.efx"
+	"bind_index"	"1"
+	"material"		"effects/yellowflare2"
+	"use_light" "0"	
+	"color_min" 	"191 251 250"	
+}
+
+"effectbind"
+{
+	"bind_name"	"effects/player/sp_shield_assult_dust_soil.efx"
+	"bind_index"	"2"
+
+		"material"	"effects/cold_dust"
+	"color_min" 	"191 251 250"
+}
+

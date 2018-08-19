@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{83BEB3F4-12B9-4046-9E7A-F9CFB85079DB}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.27428.2015</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../Headers/;../../SuperClass/;../../Reference/Headers/;../../ThirdParty/Headers/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;system.lib;utility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/;../../ThirdParty/Librarys/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../Headers/;../../SuperClass/;../../Reference/Headers/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;system.lib;utility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Engine\Utility\Codes\Effect_Manager.cpp" />
+    <ClCompile Include="..\Codes\Attack_Strong_0.cpp" />
+    <ClCompile Include="..\Codes\Attack_Strong_2.cpp" />
+    <ClCompile Include="..\Codes\Attack_Strong_3.cpp" />
+    <ClCompile Include="..\Codes\BackGround_Logo.cpp" />
+    <ClCompile Include="..\Codes\Blunt_Texture.cpp" />
+    <ClCompile Include="..\Codes\Boss.cpp" />
+    <ClCompile Include="..\Codes\Camera_Stage.cpp" />
+    <ClCompile Include="..\Codes\Counter.cpp" />
+    <ClCompile Include="..\Codes\DashSmash.cpp" />
+    <ClCompile Include="..\Codes\HeavyStanderCounter.cpp" />
+    <ClCompile Include="..\Codes\Holy_Shield_Texture.cpp" />
+    <ClCompile Include="..\Codes\Ingkells_Sword.cpp" />
+    <ClCompile Include="..\Codes\Loading.cpp" />
+    <ClCompile Include="..\Codes\MainApp.cpp" />
+    <ClCompile Include="..\Codes\Map.cpp" />
+    <ClCompile Include="..\Codes\Navi.cpp" />
+    <ClCompile Include="..\Codes\Phantom_Trail.cpp" />
+    <ClCompile Include="..\Codes\Player.cpp" />
+    <ClCompile Include="..\Codes\Ring2_Texture.cpp" />
+    <ClCompile Include="..\Codes\Ring_Disk_Texture.cpp" />
+    <ClCompile Include="..\Codes\Ring_Outer_Wind06_Texture.cpp" />
+    <ClCompile Include="..\Codes\Scene_Logo.cpp" />
+    <ClCompile Include="..\Codes\Scene_Stage.cpp" />
+    <ClCompile Include="..\Codes\Shape_Up_Shot_Texture.cpp" />
+    <ClCompile Include="..\Codes\Shield.cpp" />
+    <ClCompile Include="..\Codes\Shield_Zoom_Texture.cpp" />
+    <ClCompile Include="..\Codes\SkyBox.cpp" />
+    <ClCompile Include="..\Codes\Sword.cpp" />
+    <ClCompile Include="..\Codes\Sword_Radial_Blur_Texture.cpp" />
+    <ClCompile Include="..\Codes\Sword_Sharp_Line_Texture.cpp" />
+    <ClCompile Include="..\Codes\Sword_Sharp_Plane_Texture.cpp" />
+    <ClCompile Include="..\Codes\Trail.cpp" />
+    <ClCompile Include="..\Codes\Wind_Texture.cpp" />
+    <ClCompile Include="..\Codes\Yellow_Blunt_Texture.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Engine\Utility\Codes\Effect_Manager.h" />
+    <ClInclude Include="..\Codes\Attack_Strong_0.h" />
+    <ClInclude Include="..\Codes\Attack_Strong_2.h" />
+    <ClInclude Include="..\Codes\Attack_Strong_3.h" />
+    <ClInclude Include="..\Codes\BackGround_Logo.h" />
+    <ClInclude Include="..\Codes\Blunt_Texture.h" />
+    <ClInclude Include="..\Codes\Boss.h" />
+    <ClInclude Include="..\Codes\Camera_Stage.h" />
+    <ClInclude Include="..\Codes\Counter.h" />
+    <ClInclude Include="..\Codes\DashSmash.h" />
+    <ClInclude Include="..\Codes\HeavyStanderCounter.h" />
+    <ClInclude Include="..\Codes\Holy_Shield_Texture.h" />
+    <ClInclude Include="..\Codes\Ingkells_Sword.h" />
+    <ClInclude Include="..\Codes\Loading.h" />
+    <ClInclude Include="..\Codes\MainApp.h" />
+    <ClInclude Include="..\Codes\Map.h" />
+    <ClInclude Include="..\Codes\Navi.h" />
+    <ClInclude Include="..\Codes\Phantom_Trail.h" />
+    <ClInclude Include="..\Codes\Player.h" />
+    <ClInclude Include="..\Codes\Ring2_Texture.h" />
+    <ClInclude Include="..\Codes\Ring_Disk_Texture.h" />
+    <ClInclude Include="..\Codes\Ring_Outer_Wind06_Texture.h" />
+    <ClInclude Include="..\Codes\Scene_Logo.h" />
+    <ClInclude Include="..\Codes\Scene_Stage.h" />
+    <ClInclude Include="..\Codes\Shader_Base.hpp" />
+    <ClInclude Include="..\Codes\Shader_Default.hpp" />
+    <ClInclude Include="..\Codes\Shader_Effect.hpp" />
+    <ClInclude Include="..\Codes\Shader_Mesh.hpp" />
+    <ClInclude Include="..\Codes\Shader_Trail.hpp" />
+    <ClInclude Include="..\Codes\Shape_Up_Shot_Texture.h" />
+    <ClInclude Include="..\Codes\Shield.h" />
+    <ClInclude Include="..\Codes\Shield_Zoom_Texture.h" />
+    <ClInclude Include="..\Codes\SkyBox.h" />
+    <ClInclude Include="..\Codes\Sword.h" />
+    <ClInclude Include="..\Codes\Sword_Radial_Blur_Texture.h" />
+    <ClInclude Include="..\Codes\Sword_Sharp_Line_Texture.h" />
+    <ClInclude Include="..\Codes\Sword_Sharp_Plane_Texture.h" />
+    <ClInclude Include="..\Codes\Trail.h" />
+    <ClInclude Include="..\Codes\Wind_Texture.h" />
+    <ClInclude Include="..\Codes\Yellow_Blunt_Texture.h" />
+    <ClInclude Include="..\Headers\Constant.h" />
+    <ClInclude Include="..\Headers\Defines.h" />
+    <ClInclude Include="..\Headers\Function.h" />
+    <ClInclude Include="..\Headers\Typedef.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Codes\Shader_Default.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

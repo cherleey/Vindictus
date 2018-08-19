@@ -1,0 +1,356 @@
+
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"35 -30 -20"
+	"angle_offset_1"     "30 0 0" 
+
+	"emitter"	"trail"
+	"gravity"	
+	{
+		"0"	"0"
+		"0.5"	"0"
+		"1"	"-50"
+	}
+
+	"material"		"effects/dust"
+  //"delay"  "0.5"
+	"particle_count"	"20"
+
+	"color_min" "208 169 100"
+	"die_time"	"0.4 0.6"
+
+	"speed"		"50"
+	"speed_delta"
+	{
+		"0"	"60"	
+		"0.3"	"70"
+		"1"	"10"
+	}
+	"spread_angle"	"30 40"
+	"spread_radius" "1"
+	"spread_radius_angle" "10 20"
+	"use_spread_direction"	"1"
+	
+	"use_light" "0.5"
+	
+	"color_ramp"	"1 0.8"
+	"alpha_delta"	
+	{
+		"0"	"250"
+		"0.5"	"150"
+		"1"	"0"
+	}
+	
+	"start_length" ".8 0.5"
+	"start_width" "17"
+}
+
+
+
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"35 -30 -15"
+	"angle_offset_1"       "15 0 0" 
+
+	"emitter"	"simple"
+	"gravity"	
+	{
+		"0"	"100"
+	}
+
+	"material"		"effects/yellowflare1"
+  //"delay"  "0.5"
+	"particle_count"	
+	{
+		"0.5"	"7"
+	}
+
+	"color_min"		
+	{	
+		"0"	"39 35 27"
+
+	}
+
+	
+	"die_time"		
+	{
+		"0"	"1 0.7"
+	}
+
+	"speed"	
+	{
+		"0"	"30 80"	
+	}
+	"speed_delta"
+	{
+		"0"	"80"	
+		"0.3"	"30"
+		"1"	"1"
+	}
+
+	"spread_angle"	"40"	
+	"spread_radius"	"20"
+	"spread_radius_angle"	"30"
+	
+	"use_light" "0.5"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"0.7 0.5"
+	}
+
+	"size_delta"
+	{
+		"0"	"1"
+		"0.5"	"3"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"250"
+		"0.7"	"200"
+		"1"	"50"
+	}
+        "start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"50"
+		"0.5"	"100"
+		"1"	"150"
+	}
+}
+
+
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"35 -30 -15"
+	"angle_offset_1"     "15 0 0" 
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"-5"
+	}
+
+	"material"		"effects/dust"
+  //"delay"  "0.5"
+	"particle_count"	"10"
+
+	"color_min"		
+	{	
+		"0"	"242 198 121"
+	}
+
+	
+	"die_time"		
+	{
+		"0"	"1.5 1"
+	}
+
+	"speed"	
+	{
+		"0"	"50 45"	
+	}
+	"speed_delta"
+	{
+		"0"	"40"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+	"spread_angle"	"50"	
+	"spread_radius" "20"
+	"spread_radius_angle" "50"
+	"use_spread_direction"	"1"
+	
+	"use_light" "0.5"
+	
+	"color_ramp"	
+	{
+		"0"	"1 0.8"
+	}
+
+	"size_delta"
+	{
+		"0"	"5"
+		"0.5"	"10"
+		"1"	"11"
+	}
+	"alpha_delta"	
+	{
+		"0.1"	"250"
+		"0.5"	"100"
+		"1"	"0"
+	}
+	
+  "start_roll"    "-60  60"
+	"roll_delta"	
+	{
+		"0"	"0"
+		"0.5"	"100"
+		"1"	"250"
+	}
+}
+
+
+
+
+
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"30 -30 -15"
+	"angle_offset_1"       "15 0 0" 
+
+	"emitter"	"simple"
+	"gravity"	
+	{
+		"0"	"100"
+	}
+
+	"material"		"effects/yellowflare1"
+
+	"particle_count"	
+	{
+		"0.5"	"10"
+	}
+
+	"color_min"		
+	{	
+		"0"	"39 35 27"
+
+	}
+
+	
+	"die_time"		
+	{
+		"0"	"0.7"
+	}
+
+	"speed"	
+	{
+		"0"	"10 30"	
+	}
+	"speed_delta"
+	{
+		"0"	"45"	
+		"0.3"	"20"
+		"1"	"1"
+	}
+
+	"spread_angle"	"360"	
+	"spread_radius"	"20"
+	"spread_radius_angle"	"30"
+	
+	"use_light" "0.5"
+	
+	"use_spread_direction"	"1"
+
+	"color_ramp"	
+	{
+		"0"	"0.7 0.5"
+	}
+
+	"size_delta"
+	{
+		"0"	"1"
+		"0.5"	"3"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"250"
+		"0.7"	"200"
+		"1"	"50"
+	}
+        "start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"50"
+		"0.5"	"100"
+		"1"	"150"
+	}
+}
+
+
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"30 -30 -15"
+	"angle_offset_1"     "15 0 0" 
+
+	"emitter"		"simple"
+
+	"gravity"	
+	{
+		"0"	"-5"
+	}
+
+	"material"		"effects/dust"
+
+	"particle_count"	"6"
+
+	"color_min"		
+	{	
+		"0"	"242 198 121"
+	}
+
+	
+	"die_time"		
+	{
+		"0"	"1"
+	}
+
+	"speed"	
+	{
+		"0"	"10 25"	
+	}
+	"speed_delta"
+	{
+		"0"	"20"	
+		"0.3"	"10"
+		"1"	"0"
+	}
+	
+	"spread_angle"	"360"	
+	"spread_radius" "20"
+	"spread_radius_angle" "50"
+	"use_spread_direction"	"1"
+	
+	"use_light" "0.5"
+	
+	"color_ramp"	
+	{
+		"0"	"1 0.8"
+	}
+
+	"size_delta"
+	{
+		"0"	"2"
+		"0.5"	"5"
+		"1"	"7"
+	}
+	"alpha_delta"	
+	{
+		"0.1"	"250"
+		"0.5"	"100"
+		"1"	"0"
+	}
+	
+  "start_roll"    "-60  60"
+	"roll_delta"	
+	{
+		"0"	"0"
+		"0.5"	"100"
+		"1"	"250"
+	}
+}

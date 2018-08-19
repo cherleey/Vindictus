@@ -1,0 +1,20 @@
+
+"ground_effect_bind"
+{
+	"bind_name"
+	{
+		"C"			"effects/player/sp_shield_assult_stone_soil.efx"
+		"D"			"effects/player/sp_shield_assult_stone_soil.efx"
+		"W"			"effects/player/sp_shield_assult_stone_soil.efx"
+		
+		// P∞° ICE, SNOW ¿”
+		"P"			"effects/player/sp_shield_assult_stone_ice.efx"
+		"N"			"effects/player/sp_shield_assult_stone_sand.efx"
+	}
+	
+	"replace_param"
+	{
+	}
+
+	"follow_parent_1"	"1"
+}

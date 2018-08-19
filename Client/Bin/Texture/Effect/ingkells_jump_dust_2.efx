@@ -1,0 +1,258 @@
+// 연기 퍼짐 
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"80 -20 -10"
+	"angle_offset_1"	"0 0 0" 
+
+	"emitter"	"simple"
+	"gravity"	"50"
+	"material"		"effects/dust"
+
+	"particle_count" "10 15"
+	
+	"color_min"		
+	{	
+		"0"	"242 198 121"
+	}
+
+	"die_time"		
+	{
+		"0"	"1 2"
+	}
+
+	"speed"	
+	{
+		"0"	"30"	
+	}
+	"speed_delta"
+	{
+		"0"	"70"	
+		"0.3"	"50"
+		"1"	"0"
+	}
+	"start_roll"
+	{
+		"0"	"-60 60"
+	}
+
+	"spread_angle"	"60"
+	"spread_radius" "10"
+	"spread_radius_angle" "30"
+	"use_spread_direction"	"1"
+	"use_light"		"0.5"		
+	
+	"color_ramp" ".7 1"
+
+	"start_size"	"4 10"
+
+	"size_delta"
+	{
+		"0"		"3"
+		"1"		"8"
+	}
+	
+	"alpha_delta"	
+	{
+		"0"	"200"
+		".6" "150"
+		"1"	"0"
+	}
+	"use_light" "0.5"	
+	"roll_delta"	
+	{
+		"0"	"0"
+		"0.5"	"70"
+		"1"	"120"
+	}
+}
+
+
+
+// 연기 퍼짐 날카로움 ==========================================================================
+"particle"
+{
+
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+		"position_offset_1"	"80 -20 -10"
+	"angle_offset_1"       "0 0 0" 
+
+	"emitter"	"trail"
+	"gravity"	
+	{
+		"0"	"0"
+		"0.5"	"0"
+		"1"	"-50"
+	}
+
+	"material"		"effects/dust"
+
+	"particle_count"	"20"
+
+	"color_min"	"208 169 100"
+	"die_time"	"0.4 0.6"
+
+	"speed"		"1"
+	"speed_delta"
+	{
+		"0"	"100"	
+		"0.3"	"200"
+		"1"	"100"
+	}
+	"spread_angle"	"80"
+	"spread_radius" "0"
+	"spread_radius_angle" "30"
+	"use_spread_direction"	"1"
+	"use_light"		"0.5"		
+
+	"color_ramp"	"0.8 1"
+	"alpha_delta"	
+	{
+		"0"	"250"
+		".3" "250"
+		".5"	"0"
+	}
+	
+	"start_length" ".1 .2"
+	"start_width" "5 12"
+	
+	"length_delta"	
+	{
+		"0"	".1"
+		".8"	".1"
+		"1"		"0"
+	}
+	
+}
+
+// 먼지 검정파편
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"80 -20 -10"
+	"angle_offset_1"    "0 0 0" 
+	"emitter"	"simple"
+	"gravity"	
+	{
+		"0"	"100"
+	}
+	"material"		"effects/yellowflare1"
+  	"particle_count"	
+	{
+		"0.5"	"7"
+	}
+	"color_min"		
+	{	
+		"0"	"39 35 27"
+	}
+	"die_time"		
+	{
+		"0"	"1 0.7"
+	}
+	"speed"	
+	{
+		"0"	"30 80"	
+	}
+	"speed_delta"
+	{
+		"0"	"80"	
+		"0.3"	"30"
+		"1"	"1"
+	}
+	"spread_angle"	"40"	
+	"spread_radius"	"20"
+	"spread_radius_angle"	"30"
+	"use_light" "0.5"
+	"use_spread_direction"	"1"
+	"color_ramp"	
+	{
+		"0"	"0.7 0.5"
+	}
+	"size_delta"
+	{
+		"0"	"1"
+		"0.5"	"3"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"250"
+		"0.7"	"200"
+		"1"	"50"
+	}
+        "start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"50"
+		"0.5"	"100"
+		"1"	"150"
+	}
+}
+
+//먼지 검정파편 Down
+"particle"
+{
+	"follow_parent_1"	"1"
+	"direction_axis_1"	"2"
+	"position_offset_1"	"80 -20 -10"
+	"angle_offset_1"       "0 0 0" 
+	"emitter"	"simple"
+	"gravity"	
+	{
+		"0"	"10"
+	}
+	"material"		"effects/yellowflare1"
+	"particle_count"	
+	{
+		"0.5"	"10"
+	}
+	"color_min"		
+	{	
+		"0"	"39 35 27"
+	}
+	"die_time"		
+	{
+		"0"	"0.7"
+	}
+	"speed"	
+	{
+		"0"	"10 30"	
+	}
+	"speed_delta"
+	{
+		"0"	"45"	
+		"0.3"	"20"
+		"1"	"1"
+	}
+	"spread_angle"	"360"	
+	"spread_radius"	"20"
+	"spread_radius_angle"	"30"
+	"use_light" "0.5"
+	"use_spread_direction"	"1"
+	"color_ramp"	
+	{
+		"0"	"0.7 0.5"
+	}
+	"size_delta"
+	{
+		"0"	"1"
+		"0.5"	"3"
+	}
+	"alpha_delta"	
+	{
+		"0.3"	"250"
+		"0.7"	"200"
+		"1"	"50"
+	}
+    "start_roll"    "-60  60"	
+	"roll_delta"	
+	{
+		"0"	"50"
+		"0.5"	"100"
+		"1"	"150"
+	}
+}
+
